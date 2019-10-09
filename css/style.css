@@ -1,0 +1,30 @@
+main h1,
+main p {
+  text-align: center;
+}
+
+.gallery {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.sourceBtn {
+  display: block;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  background: rgb(55, 172, 250);
+  width: 15%;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #ffffff;
+  transition: transform 0.3s;
+}
+
+.sourceBtn:hover {
+  /* transform: scale(1.02, 1.02); */
+  background: yellowgreen;
+}
