@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 main h1,
 main p {
   text-align: center;
@@ -6,6 +11,8 @@ main p {
 .gallery {
   width: 80%;
   margin: 50px auto;
+  /* op ion: all 0.5s; */
+
 }
 
 .sourceBtn {
@@ -25,6 +32,11 @@ main p {
 }
 
 .sourceBtn:hover {
-  /* transform: scale(1.02, 1.02); */
   background: yellowgreen;
+}
+
+.gallery-item-img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
