@@ -7,7 +7,7 @@ function macyInit2() {
         container: '.gallery',
         trueOrder: false,
         waitForImages: false,
-        margin: 3,
+        margin: 15,
         columns: 4,
         breakAt: {
             960: 3,
