@@ -10,8 +10,8 @@ function macyInit2() {
         margin: 15,
         columns: 4,
         breakAt: {
-            960: 3,
-            720: 2,
+            992: 3,
+            768: 2,
             540: 1
         }
     });
