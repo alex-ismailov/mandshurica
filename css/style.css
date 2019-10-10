@@ -8,11 +8,13 @@
 }
 
 body {
-  margin: 0;
+  /* margin: 0; */
   /* padding: 30px; */
   /* width: 100%; */
   background: #1f1f21;
+  /* margin-top: 15px; */
   padding: 0 15px;
+  /* padding-top: 15px; */
 }
 
 .myContainer {
@@ -25,8 +27,13 @@ body {
 .leftSide {
   background: #2a2c2f;
   color: #fff;
-  /* padding: 15px; */
-  /* padding-left: 15px; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.leftSide-content {
+  position: fixed;
+  width: 15%;
 }
 
 .leftSide .logo {
@@ -36,6 +43,7 @@ body {
   /* font-style: normal; */
   font-family: 'Exo', sans-serif;
   text-transform: uppercase;
+  padding: 24px 0 80px;
 }
 
 .leftSide .logo a {
@@ -48,6 +56,7 @@ body {
 .leftSide .menu {
   list-style: none;
   text-align: center;
+  margin: 12px 12px 120px;
 }
 
 .leftSide .menu li {
