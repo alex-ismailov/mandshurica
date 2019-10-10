@@ -14,7 +14,8 @@ body {
 
 .dividerWrapper {
   position: fixed;
-  /* background: yellowgreen; */
+  /* background: yellowgreen;
+  opacity: 0.3; */
   background: #1f1f21;
   height: 15px;
   width: 100%;
@@ -23,6 +24,10 @@ body {
 
 .divider {
   position: fixed;
+}
+
+.pt {
+  padding-top: 15px;
 }
 
 .myContainer {
