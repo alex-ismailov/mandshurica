@@ -127,7 +127,8 @@ body {
   width: 100%;
   height: 2px;
   /* background: yellowgreen; */
-  background: rgba(234, 235, 236, 0.2);
+  background: rgba(154, 205, 50, 0.7);
+  /* background: rgba(234, 235, 236, 0.2); */
   transition: 0.3s;
   transform: scaleX(0);
   margin-top: 20px;
@@ -149,19 +150,11 @@ body {
   font-size: 1.0em;
 }
 
-/* 8888888 8888888888888 */
-
-
-
-
-
-
-
-
 
 .sociallinks-title {
   /* margin-bottom: 20px; */
   padding-bottom: 20px;
+  text-align: center;
 }
 
 .sociallinks-list {
@@ -171,14 +164,14 @@ body {
   justify-content: space-around;
 }
 
-@media(max-width: 1199px) {
+/* @media(max-width: 1199px) {
   .sociallinks-list {
     padding-left: 15px;
   }
-}
+} */
 
 .sociallinks-item {
-  padding: 15px 15px 0 0;
+  padding: 8px;
 }
 
 .sociallinks-list a i{
