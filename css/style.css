@@ -209,31 +209,28 @@ body {
 }
 
 .sociallinks-item.instagram:hover {
-  /* border-color: #E1306C; */
-  border-color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-  box-shadow: 0px 0px 30px #E1306C;
+  border-color: #eeeeee;
+  box-shadow: 0px 0px 30px #eeeeee;
+  color: #eeeeee;
   transform: scale(1.1, 1.1);
-  color: #E1306C;
+  /* color: #E1306C; */
 }
 
 .telegram:hover {
-  border-color: #0088cc;
-  box-shadow: 0px 0px 30px #0088cc;
-  color: #0088cc;
+  border-color: #eeeeee;
+  box-shadow: 0px 0px 30px #eeeeee;
+  color: #eeeeee;
   transform: scale(1.1, 1.1);
 } 
 .vk:hover {
-  border-color: #45668e;
-  box-shadow: 0px 0px 30px #45668e;
-  color: #45668e;
+  border-color: #eeeeee;
+  box-shadow: 0px 0px 30px #eeeeee;
+  color: #eeeeee;
   transform: scale(1.1, 1.1);
 }
 .facebook:hover {
-  /* border-color: #0078d7; */
   border-color: #eeeeee;
-  /* box-shadow: 0px 0px 30px #0078d7; */
   box-shadow: 0px 0px 30px #eeeeee;
-  /* color: #0078d7; */
   color: #eeeeee;
   transform: scale(1.1, 1.1);
 }
@@ -278,8 +275,8 @@ body {
   right: 2%;
   bottom: 2%;
   left: 2%;
-  border-top: 2px solid #eaebec;
-  border-bottom: 2px solid #eaebec;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
   transition: 0.2s;
   transform: scaleX(0);
 }
@@ -295,8 +292,8 @@ body {
   right: 2%;
   bottom: 2%;
   left: 2%;
-  border-left: 2px solid #eaebec;
-  border-right: 2px solid #eaebec;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
   transition: 0.2s;
   transition-delay: 0.2s;
   transform: scaleY(0);
